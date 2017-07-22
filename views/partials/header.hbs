@@ -1,0 +1,24 @@
+<header>
+	<div class="top">
+		<div class="title">
+			<h1>{{header.name}}</h1>
+			<h2>{{descript header.job_descript}}</h2>
+		</div>
+	</div>
+	<div class="bottom">
+	{{#header.contact}}
+		<ul>
+			<li class="icon phone">&nbsp;{{tel}}</li>
+			<li class="icon email">
+			  <a href="mailto:{{email}}">{{email}}</a>
+			</li>
+		</ul>
+		<ul>
+			<li class="icon wx">{{qq}}</li>
+			<li class="icon github">
+				<a href="{{github.url}}">{{github.id}}</a>
+			</li>
+		</ul>
+	{{/header.contact}}
+	</div>
+</header>

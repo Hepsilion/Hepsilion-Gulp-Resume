@@ -1,0 +1,39 @@
+@media print{
+  body{
+    background #ffffff
+  }
+  #notice{
+    display none
+  }
+  .container{
+    box-shadow none
+    margin 0 auto
+    & article section h2{
+      // border-bottom 1px solid black
+    }
+    & header{
+      padding 25px 40px 15px
+    }
+    & article{
+      // padding-top 4px
+      & section{
+        margin-bottom 4px
+        & .item{
+          margin-top 7px
+        }
+      }
+    }
+  }
+  #aside{
+    display none
+  }
+  .footer{
+    display none
+  }
+  #top{
+    display none
+  }
+  #duoshuo-part{
+    display none
+  }
+}

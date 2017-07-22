@@ -1,0 +1,112 @@
+{
+	"title": "吴庭明-华东师范大学",
+	"top": {
+		"year": "2017",
+		"month": "05"
+	},
+	"aside": {
+		"source": "源代码",
+		"source_url": "https://github.com/Hepsilion/Hepsilion-Homepage/tree/master/Hepsilion-Gulp-Resume",
+		"download": "下载 PDF",
+		"download_url": "吴庭明-华东师范大学.pdf",
+		"backHome": "返回主页",
+		"backHome_url": "https://hepsilion.github.io/"
+	},
+	"header": {
+		"name": "吴庭明",
+		"job_descript": ["Java 工程师"],
+		"contact": {
+			"tel": "  电话: (+86) 15921576683",
+			"email": "邮箱: wutingming@hotmail.com",
+			"github": {
+				"id": "Github: https://github.com/Hepsilion",
+				"url": "https://github.com/hepsilion"
+			},
+			"qq": " 微信: 2428091608"
+		}
+	},
+	"article": {
+		"skills": {
+			"zh-CN": "专业技能",
+			"en": "Skills",
+			"skill": {
+				"content1": {
+					"content":"**熟悉**：Java"
+				},
+				"content2": {
+					"content":"**了解**：C/C++、HTML/CSS/JavaScript、Android、SpringMVC、Linux、Maven"
+				}
+			}
+		},
+		"education": {
+			"zh-CN": "教育经历",
+			"en": "Education",
+			"info": {
+				"ug": {
+					"name": "华东师范大学，软件工程",
+					"sort": "  排名: 15/70",
+					"time": "**硕士**，2015/09 - 2018/07"
+				},
+				"master": {
+					"name": "华东师范大学，软件工程",
+					"sort": "绩点: 3.43/4.0",
+					"time": "**本科**，2011/09 - 2015/07"
+				}
+			}
+		},
+		"honor": {
+			"cn": "荣誉",
+			"en": "Honor",
+			"h": {
+				"h1": {
+					"name": "**第三届全国高校云计算应用创新大赛华东赛区总决赛三等奖**",
+					"time": "2017/03"
+				},
+				"h2": {
+					"name": "**华东师范大学优秀学生**",
+					"time": "2014/11"
+				}
+			}
+		},
+		"ex": {
+			"cn": "工作经历",
+			"en": "Experience",
+			"e": {
+				"e1": {
+					"name": "**上海惠普有限公司**, 实习",
+					"time": "2014/07 ∼ 2014/12"
+				}
+			}
+		},
+		"pro": {
+			"cn": "项目经历",
+			"en": "Projects",
+			"p": {
+				"p1": {
+					"name": "虚拟现实自行车",
+					"time": "2016/12 ~ 2017/01",
+					"info": "1. 本项目是使用Unity3D、Android和Arduino实现的虚拟自行车骑行系统。<br>2. 我担任项目组长，主要负责项目的**整体方案设计、客户端及通讯过程的开发**。<br>3. Android客户端与Unity服务程序通过Socket使用自定义的通信协议进行数据交互。",
+					"url": ""
+				},
+				"p2": {
+					"name": "手机安全卫士",
+					"time": "2016/01 ~ 2016/10",
+					"info": "1. 本项目是一个手机安全管理App，用于管理手机中的数据以及保护用户隐私。<br>2. 作为项目参与者，**实现黑名单电话拦截、病毒查杀、缓存清理、流量统计等模块**。<br>3. 使用AIDL接口调用Android底层方法实现上述功能",
+					"url": "https://github.com/Hepsilion/SecurityGuard"
+				},
+				"p3": {
+					"name": "CloudSim",
+					"time": "2015/09 ~ 2016/05",
+					"info": "1. 本项目是使用Java编写的云计算仿真工具，是墨尔本大学的开源项目。<br>2. 我通过**阅读源码，拓展CloudSim的功能、纠正部分源码错误**。<br>3. 我利用CloudSim仿真云计算集群做一些资源节能调度方面的科研。",
+					"url": "https://github.com/Hepsilion/cloudsim"
+				},
+				"p4": {
+					"name": "位置共享应用",
+					"time": "2013/02 ~ 2013/06",
+					"info": "1. 本项目是提供位置共享服务的App，类似于微信中的位置共享。<br>2. 我担任项目组长，主要负责项目的**整体方案设计，客户端与服务器程序的实现**。<br>3. 利用多线程实现多用户，每个用户通过Socket与服务器程序进行通信。<br>4. 客户端利用Service获取用户的实时位置数据，通过服务器和其他客户端间接共享位置。",
+					"url": "https://github.com/Hepsilion/MapProject"
+				}
+			}
+		}
+	}
+}

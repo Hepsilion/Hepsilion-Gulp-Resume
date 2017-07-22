@@ -1,0 +1,137 @@
+.container{
+  font-family times
+  & article{
+    height auto
+    background #fff
+    padding 28px 65px 5px 65px
+    & strong{
+      color #000000
+      padding 0 3px
+    }
+    & section{
+      margin-bottom 7px
+      vertical-align top
+      & h2{
+        font-size 28px
+        font-weight 700
+        border-bottom 1px solid #d5d0d0
+        padding-bottom 4px
+        width 99%
+        & span{
+          display none
+          font-size: 16px;
+          color: teal;
+          font-variant: small-caps;
+          font-weight: 700;
+          margin-left 20px
+        }
+      }
+      & ul{
+        padding 5px 10px
+        margin-left 30px
+        & li{
+          line-height 28px
+          list-style-type disc
+          & span{
+            font-size 20px
+            width 30%
+            display inline-block
+            text-align left
+          }
+        }
+      }
+    }
+    & .personal{
+      display inline-block
+      width 49%
+      padding 5px
+      border 1px dashed #dadada
+    }
+    & .personal{
+      .detail{
+        font-size 12px
+      }
+    }
+    & section.honor, & section.ex, & section.proj{
+      & ul li span{
+        width 30%
+      } 
+
+      & ul li span:first-child{
+        width 66%
+      } 
+    }
+    & section.education{
+      & ul li{
+        & span:nth-child(1){
+          width 36%
+        }
+        & span:nth-child(2){
+          width 37%
+        }
+        & span:nth-child(3){
+          width 23%
+        }
+        // & span{
+        //   width 32%
+        // }
+      }
+    }   
+    & section.skills{
+      & ul li{
+        font-size 20px
+      }
+    } 
+    & section.honor{
+      & ul li{
+        & span:nth-child(2){
+          text-align right
+          padding-right 50px
+          font-weight 700
+        }
+      }
+    }
+    & section.ex{
+      & ul li{
+        & span:nth-child(2){
+          text-align right
+          font-weight 700
+        }
+      }
+    }
+    & section.proj{
+      font-family times
+      & ul li{
+        margin 0 0 10px 0
+        & span{
+          font-size 20px
+          font-weight 900
+        }
+        & span:nth-child(1){
+          & a{
+            margin-left 20px
+            font-size 16px
+            text-decoration none
+            color black
+          }
+        }
+        & span:nth-child(2){
+          text-align right
+        }
+        & p{
+          font-size 18px
+          font-family times
+          text-align justify
+        }
+      }
+      & .none{
+        display none
+      }
+    }
+  }
+  & .beforenone{
+    &:before{
+      display none
+    }
+  }
+}
